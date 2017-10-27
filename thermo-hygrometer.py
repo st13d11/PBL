@@ -40,7 +40,7 @@ else :
     H = 'error'
     index = 'error'
 
-csv = '{0},{1},{2},{3:.0d}'.format(now, T, H, index)
+csv = '{0},{1},{2},{3}'.format(now, T, H, index)
 
 if not os.path.exists(dir_path) :
     os.mkdir(dir_path)
