@@ -23,9 +23,8 @@ def readData():
     T = compensate_T(temp_raw)
     H = compensate_H(hum_raw)
     
-    index = 0.81 * T + 0.01 * H * (0.99 * T - 14.3) + 46.3
-    
-    return T + "," + H + "," + index
+    csv = '{0},{1}'.format(T, H)
+    return csv
 
 def compensate_T(adc_T):
     global t_fine
