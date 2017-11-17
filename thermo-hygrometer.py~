@@ -6,7 +6,7 @@ import os
 import RPi.GPIO as GPIO
 import time
 
-dir_path = '/home/PBL'
+dir_path = '/home/hoge'
 MD = 'MeasurementData.csv'
 MDnoon = 'MeasurementData_Noon.csv'
 
